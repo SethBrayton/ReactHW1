@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&family=Merriweather:wght@900&display=swap');
+
+.paragraph_wrapper {
+  height: 650px;
+}
+
+
+.paragraph_dino {
+  display: flex;
+  align-items: row;
+  justify-content: center;
+  gap:30px;
+  
+}
+
+.paragraph_text {
+  display: flex;
+  flex-direction: column;
+  color: rgba(34, 53, 111, 1);
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+  margin: 0px 0px;
+}
+
+.paragraph_text p {
+  width: 550px;
+  font-size: 24px;
+  line-height: 42.55px;
+  font-family: 'ABeeZee', sans-serif;
+}
+
+.paragraph_text > h1 {
+  font-family: 'ABeeZee', sans-serif;
+  font-style: italic;
+  font-size: 42px;
+  font-weight: 200;
+}
+ 
+.img {
+  margin: 0px 0px;
+}
+

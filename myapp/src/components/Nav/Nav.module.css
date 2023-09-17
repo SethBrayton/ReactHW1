@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee&family=Merriweather:wght@900&display=swap');
+
+
+.logo {
+  margin-left: 150px;
+}
+
+
+
+.navigation > ul {
+  display: flex;
+  gap: 55px;
+  list-style: none;
+  font-family: 'ABeeZee', sans-serif;
+  font-size: 14px;
+}
+
+.navigation {
+  display: flex ;
+  align-items: center;
+}
+
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+}
+
+.navbar > img {
+  margin-top: 30px ;
+}
+
+.navbar > button {
+  width: 150px;
+  height: 50px;
+  border-radius: 50px;
+  background-color: rgba(249, 182, 64, 1);
+  color: white;
+  font-style: italic;
+  border-style: none;
+  margin-top: 60px; 
+  cursor: pointer;
+}
+
+.navigation > ul > li:hover {
+  border-bottom: 1px solid rgb(0, 0, 0);
+  padding-bottom: 2px;
+  cursor: pointer;
+}
+

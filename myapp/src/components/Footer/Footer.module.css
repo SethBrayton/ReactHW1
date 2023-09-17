@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&family=Merriweather:wght@900&display=swap");
+
+.footer_wrapper {
+  display: flex;
+}
+
+.p_footer {
+  font-family: "ABeeZee", sans-serif;
+  font-style: italic;
+  color: rgba(34, 53, 111, 1);
+  font-size: 36px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 30px;
+}
+
+.footer_wrapper img {
+  margin: 0;
+}
+
+.p_footer p {
+  width: 670px;
+}
